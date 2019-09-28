@@ -1,2 +1,2 @@
 # events_site
-Events registering site w/ register and login functionality, and accompanied SQL database
+Events registering site w/ user register and login functionality, and accompanied SQL database
