@@ -1,0 +1,114 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  background:url(img/background.jpg);
+	background-size:cover; /*Stretches the image to fit the entire screen*/
+}
+
+#bigdamnwrapper{
+  width:1000px;
+  background-color: transparent;
+}
+
+#topbar p{
+  display:inline-block;
+}
+
+#topbar div{
+  display:block;
+  padding-left:10px;
+  padding-top:10px;
+  background-color:white;
+}
+
+#title{
+  padding-left:10px;
+  font-size:4em;
+}
+
+nav{
+  border-radius:10px;
+  background-color: white;
+  padding:10px 0 10px 0;
+  color:black;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+
+nav ul{
+  padding-left:10px;
+  display:inline-block;
+}
+
+nav div{
+  display:inline-block;
+}
+
+nav form{
+  display:inline-block;
+}
+
+nav ul li{
+  display:inline-block;
+}
+
+nav ul li a{
+  color:black;
+  font-size:1.5em;
+}
+
+.blogpost{
+   padding:10px 10px 10px 10px;
+   border-radius:10px;
+   background-color: white;
+}
+
+.blogpost form{
+   display:inline-block;
+}
+
+.detailform{
+   display:inline-block;
+}
+
+.detailform p{
+  width:150px;
+  display:inline-block;
+}
+.detailform input{
+  width:300px;
+  display:inline-block;
+}
+
+.mediabox{
+  display:flex;
+  justify-content:center;
+}
+
+.mediabox img{
+  display:inline-block;
+}
+
+.mediabox iframe{
+  display:inline-block;
+}
+
+.divider{
+  width:100%;
+  height:15px;
+  background-color: transparent;
+}
+
+.footer{
+  padding:10px 0px 10px 0px;
+  margin-bottom:10px;
+  border-radius:10px;
+  text-align:center;
+  background-color: white;
+}
